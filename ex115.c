@@ -13,9 +13,8 @@ int main()
 
 int temp(int lower, int upper, int step)
 {
-  printf("F to C Table\n");
-  printf("-------------\n\n\n");
+  printf("\n\nF to C Table\n-------------\n\n\n");
 
   for (;upper >= lower; upper -= step)
-    printf("C: %3d\tF:%3d.\n", (5 * (upper -32) /9), upper);
+    printf("C: %3d\tF:%3d\n", (5 * (upper -32) /9), upper);
 }
